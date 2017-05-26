@@ -38,38 +38,37 @@
 
   print(
     '<link rel="shortcut icon" href="' . $iconName . '">' . "\n" .
-    '<style type="text/css">' . "\n" .
-    '<!-- @import "http:../inc/basicStyles.css" ; -->' . "\n"
+    '<link rel="stylesheet" href="../inc/basicStyles.css">' . "\n"
   );
 
   if ( $colorScheme == $BLUE )
   {
     print(
-      '<!-- @import "http:../inc/blueStyles.css" ; -->' . "\n"
+      '<link rel="stylesheet" href="../inc/blueStyles.css">' . "\n"
     );
   }
   elseif ( $colorScheme == $GREEN )
   {
     print(
-      '<!-- @import "http:../inc/greenStyles.css" ; -->' . "\n"
+      '<link rel="stylesheet" href="../inc/greenStyles.css">' . "\n"
     );
   }
   elseif ( $colorScheme == $RED )
   {
     print(
-      '<!-- @import "http:../inc/redStyles.css" ; -->' . "\n"
+      '<link rel="stylesheet" href="../inc/redStyles.css">' . "\n"
     );
   }
   elseif ( $colorScheme == $YELLOW )
   {
     print(
-      '<!-- @import "http:../inc/yellowStyles.css" ; -->' . "\n"
+      '<link rel="stylesheet" href="../inc/yellowStyles.css">' . "\n"
     );
   }
   else
   {
     print(
-      '<!-- @import "http:../inc/blackStyles.css" ; -->' . "\n"
+      '<link rel="stylesheet" href="../inc/blackStyles.css">' . "\n"
     );
   }
 
